@@ -67,10 +67,6 @@ Apresenta o passo a passo do fluxo de cadastro, validação e publicação de um
 Demonstra o processo de solicitação, identificação do beneficiário e registro do atendimento.
 
 ## Link do repositório
-Substitua este campo pelo link após publicar no GitHub:
+https://github.com/Rafael0906/praticas-extencionistas-iii
 
-`https://github.com/SEU-USUARIO/praticas-extensionistas-iii`
 
-## Observação
-A estrutura deste material foi organizada tomando como referência o padrão de documentação do repositório de exemplo informado pelo aluno:
-`https://github.com/Rafael0906/pratica-extencionista-iv`
