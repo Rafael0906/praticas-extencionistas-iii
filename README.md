@@ -49,3 +49,9 @@ O projeto conta com toda a modelagem de processos e dados documentada em formato
 4. Certifique-se de que as credenciais no arquivo `db_connect.php` estão de acordo com o seu ambiente.
 5. Inicie os módulos Apache e MySQL no painel do XAMPP.
 6. Acesse no navegador: `http://localhost/gestao_comunitaria/`
+
+## 💾 Download do Projeto
+
+Se você deseja baixar todos os arquivos e diagramas do projeto de uma vez em um arquivo compactado `.zip`, clique no link abaixo:
+
+👉 [Baixar Projeto Completo (.zip)](https://github.com/Rafael0906/praticas-extencionistas-iii/archive/refs/heads/main.zip)
