@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Gestão Comunitária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="max-width: 450px; margin-top: 80px;">
+        <h1 style="text-align: center;">Sistema de Gestão</h1>
+        <h2 style="text-align: center; border: none;">Ações Comunitárias e Doações</h2>
+        
+        <?php if(isset($_GET['erro'])): ?>
+            <div class="error">Usuário ou senha inválidos!</div>
+        <?php endif; ?>
+        
+        <form action="auth.php" method="POST">
+            <label>Usuário</label>
+            <input type="text" name="usuario" required placeholder="Digite seu usuário">
+            
+            <label>Senha</label>
+            <input type="password" name="senha" required placeholder="Digite sua senha">
+            
+            <button type="submit" style="width: 100%;">Entrar no Sistema</button>
+        </form>
+        
+        <p style="text-align: center; margin-top: 20px; color: #999;">
+            Credenciais padrão: admin / admin123
+        </p>
+    </div>
+</body>
+</html>
